@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Specify the character set for the document -->
+    <meta charset="ISO-8859-1">
+    <!-- Set the title of the HTML document -->
+    <title>Insert title here</title>
+</head>
+<body>
+    <!-- Display a heading with a dynamic message using Thymeleaf expression -->
+    <h2>
+        <!-- Thymeleaf expression to concatenate 'Hello,' with the value of the 'message' variable -->
+        <span th:text="'Hello,' + ${message}"></span>
+    </h2>
+</body>
+</html>
